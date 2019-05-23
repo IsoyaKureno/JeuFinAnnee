@@ -98,9 +98,10 @@ Turret.prototype.update = function()
     }
     /////////
 	
-	//A bullet collide with a foe//
+	//A BULLET COLLIDE WITH A FOE//
 	this.game.physics.arcade.overlap(this._TurretBullets, this.currentState._Foes, this.targetHit, null, this);
 	///////////////////////////////
+    
 }
 
 /////////////////////////

@@ -95,8 +95,6 @@ Foe.prototype.move = function()
 
 Foe.prototype.takeHit = function()
 {
-    //this.currentState._Scraps.children[this.currentState.nNextScrapId].spawn(this.body.x, this.body.y);
-    
     if(this.nLife > 0)
     {
         //console.log("OBJECT Foe - Foe Take Hit");
@@ -130,11 +128,9 @@ Foe.prototype.die = function()
 {
     //loot scraps//
     //TODO more scraps with dynamic spawn//
-    /*
     this.currentState._Scraps.children[this.currentState.nNextScrapId].spawn(this.body.x+10, this.body.y);
     this.currentState._Scraps.children[this.currentState.nNextScrapId].spawn(this.body.x-10, this.body.y);
     this.currentState._Scraps.children[this.currentState.nNextScrapId].spawn(this.body.x, this.body.y);
-    */
     
     this.kill();
 }
