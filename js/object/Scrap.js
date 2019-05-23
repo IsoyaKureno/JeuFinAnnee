@@ -64,9 +64,7 @@ Scrap.prototype.spawn = function(posX, posY)
     this.body.x = posX;
     this.body.y = posY;
     
-    //update the id of the next scrap
-    this.currentState.nNextScrapId = (this.currentState.nNextScrapId + 1) % this.nNbScraps;
-    console.log("nNextScrapId", this.currentState.nNextScrapId);
+    this.currentState.updateNextScrapId();
 }
 
 /////////////

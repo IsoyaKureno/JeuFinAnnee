@@ -143,7 +143,7 @@ var LevelProto = {
         
         
         //console.log("STATE LevelProto - Init Scraps");
-        this.nNbScraps = 5;
+        this.nNbScraps = 30;
         this.nNextScrapId = 0;
         
         this._Scraps = this.game.add.group();
@@ -227,6 +227,18 @@ var LevelProto = {
     {
         //this.game.debug.body(this.player);
         //this.game.debug.body(this.generator);
+    },
+    
+    //////////////////////////
+    //                      //
+    // UPDATE NEXT SCRAP ID //
+    //                      //
+    //////////////////////////
+    
+    updateNextScrapId:function()
+    {
+        //update the id of the next scrap
+        this.nNextScrapId = (this.nNextScrapId + 1) % this.nNbScraps;
     }
 
 }
