@@ -1,0 +1,48 @@
+@font-face 
+{
+	font-family: 'PressStart2P';
+	src: url('../assets/fonts/PressStart2P-Regular.eot');
+	src: local('☺'), url('../assets/fonts/PressStart2P-Regular.woff') format('woff'), url('../assets/fonts/PressStart2P-Regular.ttf') format('truetype'), url('../assets/fonts/PressStart2P-Regular.svg') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+/*  * select all node */
+*
+{
+    margin: 0;
+    padding: 0;
+}
+
+/* select the node <body> */
+body
+{
+    overflow: hidden;
+}
+
+/* select all <div> node */
+div
+{
+    position: absolute;
+}
+
+
+#game-container
+{
+    width: 448px;
+    height: 448px;
+    
+    top:50%;
+    left:50%;
+    
+    margin-top: -288px;     /*9*32*/
+    margin-left: -320px;    /*10*32*/
+    
+    background-color: #999;
+}
+
+#font-loader
+{
+    opacity: 0;
+    font-family: 'PressStart2P';
+}

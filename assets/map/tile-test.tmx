@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.2" tiledversion="2019.03.13" orientation="orthogonal" renderorder="right-down" width="20" height="18" tilewidth="32" tileheight="32" infinite="0" nextlayerid="8" nextobjectid="14">
+ <tileset firstgid="1" name="tileset-mario" tilewidth="32" tileheight="32" tilecount="924" columns="33">
+  <image source="tileset/tileset-mario.png" width="1056" height="896"/>
+ </tileset>
+ <layer id="7" name="Walls" width="20" height="18">
+  <data encoding="csv">
+3,0,0,3,3,3,3,0,0,3,3,0,0,3,3,3,3,0,0,3,
+3,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,3,
+3,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,3,
+3,0,0,0,0,2,2,2,2,2,2,2,2,2,2,0,0,0,0,3,
+3,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,3,
+3,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,3,
+3,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,3,
+3,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,3,
+3,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,3,
+3,2,2,2,2,2,2,2,0,0,0,0,2,2,2,2,2,2,2,3,
+3,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,3,
+3,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,3,
+3,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,3,
+3,0,0,2,2,2,2,2,2,2,2,2,2,2,2,2,2,0,0,3,
+3,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,3,
+3,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,3,
+3,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,3,
+3,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,3
+</data>
+ </layer>
+ <objectgroup id="4" name="Foes">
+  <object id="2" name="TestFoe" x="560" y="0" width="32" height="32"/>
+  <object id="11" name="TestFoe" x="48" y="0" width="32" height="32"/>
+  <object id="12" name="TestFoe" x="240" y="0" width="32" height="32"/>
+  <object id="13" name="TestFoe" x="368" y="0" width="32" height="32"/>
+ </objectgroup>
+ <objectgroup id="6" name="Turrets">
+  <object id="5" name="turret" x="480" y="512" width="32" height="32"/>
+  <object id="6" name="turret" x="128" y="512" width="32" height="32"/>
+  <object id="7" name="turret" x="416" y="384" width="32" height="32"/>
+  <object id="8" name="turret" x="192" y="384" width="32" height="32"/>
+  <object id="9" name="turret" x="448" y="256" width="32" height="32"/>
+  <object id="10" name="turret" x="160" y="256" width="32" height="32"/>
+ </objectgroup>
+</map>
